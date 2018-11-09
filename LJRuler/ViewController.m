@@ -28,7 +28,7 @@
 //    textField.keyboardType = UIKeyboardTypeNumberPad;
     textField.delegate = self;
     [self.view addSubview:textField];
-    
+    NSLog(@"hehe");
     
 }
 -(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
